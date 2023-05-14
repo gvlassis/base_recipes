@@ -1,1 +1,1 @@
-catimg "${SRC_DIR}/test-images/mewtwo-front.png"
+catimg -h

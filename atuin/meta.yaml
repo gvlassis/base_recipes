@@ -1,0 +1,19 @@
+package:
+  name: "atuin"
+  version: "latest"
+
+source:
+  git_url: "https://github.com/ellie/atuin.git"
+
+requirements:
+  build:
+    - rust
+
+about:
+  home: "https://github.com/ellie/atuin"
+  license: "MIT"
+  summary: "Magical shell history"
+
+extra:
+  recipe-maintainers:
+    - gvlassis

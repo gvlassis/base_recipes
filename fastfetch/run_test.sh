@@ -1,1 +1,1 @@
-flashfetch
+fastfetch

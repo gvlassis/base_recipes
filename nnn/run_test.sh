@@ -1,1 +1,1 @@
-nnn -V
+nnn -h

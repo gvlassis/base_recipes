@@ -9,10 +9,6 @@ requirements:
   build:
     - cmake
 
-test:
-  source_files:
-    - test-images/mewtwo-front.png
-
 about:
   home: "https://github.com/posva/catimg"
   license: "MIT"

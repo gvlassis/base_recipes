@@ -12,7 +12,7 @@ requirements:
 about:
   home: "https://github.com/LinusDierheimer/fastfetch"
   license: "MIT"
-  summary: "Like neofetch, but much faster because written in C (flashfetch is like fastfetch, but configured at compile time to eliminate any possible overhead)"
+  summary: "Like neofetch, but much faster because written in C"
 
 extra:
   recipe-maintainers:
