@@ -1,0 +1,23 @@
+package:
+  name: "catimg"
+  version: "latest"
+
+source:
+  git_url: "https://github.com/posva/catimg.git"
+
+requirements:
+  build:
+    - cmake
+
+test:
+  source_files:
+    - test-images/mewtwo-front.png
+
+about:
+  home: "https://github.com/posva/catimg"
+  license: "MIT"
+  summary: "Insanely fast image printing in your terminal"
+
+extra:
+  recipe-maintainers:
+    - gvlassis
