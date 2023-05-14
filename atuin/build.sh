@@ -1,5 +1,4 @@
-# Taken from: https://anaconda.org/dnachun/atuin
-cargo install --locked --root ${PREFIX} --path .
+cargo install --path "${SRC_DIR}/atuin" --root ${PREFIX}
 
 mkdir -p "${PREFIX}/bin/"
 cp "${SRC_DIR}/bin/atuin" "${PREFIX}/bin/"
