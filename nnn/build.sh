@@ -1,4 +1,4 @@
-make O_NERD=1 O_NOSSN=1 O_GITSTATUS=1 O_NAMEFIRST=1
+make O_NORL=1 O_NOLC=1 O_NOMOUSE=1 O_NOBATCH=1 O_NOFIFO=1 O_NERD=1 O_NOSSN=1 O_NAMEFIRST=1
 
-mkdir -p "${PREFIX}/bin/"
-cp "${SRC_DIR}/nnn" "${PREFIX}/bin/"
+mkdir -p "${PREFIX}/bin"
+cp "${SRC_DIR}/nnn" "${PREFIX}/bin"

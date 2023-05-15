@@ -1,18 +1,18 @@
 package:
-  name: "catimg"
-  version: "latest"
+  name: catimg
+  version: latest
 
 source:
-  git_url: "https://github.com/posva/catimg.git"
+  git_url: https://github.com/posva/catimg.git
 
 requirements:
   build:
     - cmake
 
 about:
-  home: "https://github.com/posva/catimg"
-  license: "MIT"
-  summary: "Insanely fast image printing in your terminal"
+  home: https://github.com/posva/catimg
+  license: MIT
+  summary: Insanely fast image printing in your terminal
 
 extra:
   recipe-maintainers:

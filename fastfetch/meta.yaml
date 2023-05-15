@@ -1,18 +1,18 @@
 package:
-  name: "fastfetch"
-  version: "latest"
+  name: fastfetch
+  version: latest
 
 source:
-  git_url: "https://github.com/LinusDierheimer/fastfetch.git"
+  git_url: https://github.com/LinusDierheimer/fastfetch.git
 
 requirements:
   build:
     - cmake
 
 about:
-  home: "https://github.com/LinusDierheimer/fastfetch"
-  license: "MIT"
-  summary: "Like neofetch, but much faster because written in C"
+  home: https://github.com/LinusDierheimer/fastfetch
+  license: MIT
+  summary: Like neofetch, but much faster because written in C
 
 extra:
   recipe-maintainers:
