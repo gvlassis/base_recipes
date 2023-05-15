@@ -7,7 +7,9 @@ source:
 
 requirements:
   build:
+    - {{compiler('c')}}
     - cmake
+    - make
 
 about:
   home: https://github.com/LinusDierheimer/fastfetch

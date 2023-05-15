@@ -5,10 +5,16 @@ package:
 source:
   git_url: https://github.com/jarun/nnn.git
 
+requirements:
+  build:
+    - {{compiler('c')}}
+    - make
+    - pkg-config
+
 about:
   home: https://github.com/jarun/nnn
   license: BSD 2-Clause
-  summary: The unorthodox terminal file manager (compiled with O_NERD=1, O_NOSSN=1, O_GITSTATUS=1, O_NAMEFIRST=1)
+  summary: The unorthodox terminal file manager (compiled with O_NORL=1, O_NOLC=1, O_NOMOUSE=1, O_NOBATCH=1, O_NOFIFO=1, O_NERD=1, O_NOSSN=1, O_NAMEFIRST=1)
 
 extra:
   recipe-maintainers:

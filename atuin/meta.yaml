@@ -7,7 +7,8 @@ source:
 
 requirements:
   build:
-    - rust
+    - {{ compiler('rust') }}
+    - make
 
 about:
   home: https://github.com/ellie/atuin
