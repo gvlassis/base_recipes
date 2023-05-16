@@ -5,16 +5,8 @@ package:
 source:
   git_url: https://github.com/ellie/atuin.git
 
-requirements:
-  build:
-    - {{ compiler('rust') }}
-    - make
-
 about:
-  home: https://github.com/ellie/atuin
+  home: https://atuin.sh/
   license: MIT
   summary: Magical shell history
-
-extra:
-  recipe-maintainers:
-    - gvlassis
+  description: "Find recipe here: https://github.com/gvlassis/base_recipes/tree/main/atuin"

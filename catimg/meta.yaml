@@ -5,17 +5,8 @@ package:
 source:
   git_url: https://github.com/posva/catimg.git
 
-requirements:
-  build:
-    - {{compiler('c')}}
-    - cmake
-    - make
-
 about:
-  home: https://github.com/posva/catimg
+  home: https://posva.net/shell/retro/bash/2013/05/27/catimg
   license: MIT
   summary: Insanely fast image printing in your terminal
-
-extra:
-  recipe-maintainers:
-    - gvlassis
+  description: "Find recipe here: https://github.com/gvlassis/base_recipes/tree/main/catimg"
